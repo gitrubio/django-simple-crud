@@ -3,6 +3,6 @@ from .api import ProjectViewSet
 
 router = routers.DefaultRouter()
 
-router.register('api/projects', ProjectViewSet, 'projects')
+router.register('projects', ProjectViewSet, 'projects')
 
 urlpatterns = router.urls
